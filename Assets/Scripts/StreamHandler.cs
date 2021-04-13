@@ -34,13 +34,22 @@ public class StreamHandler
     private bool _streamActive; //State of stream. 
     #endregion
 
+    #region Public methods
 
     public void ParseStream(Uri uri)
     {
         ParseStream(uri, _defaultLogin, _defaultPassword);
     }
 
-    public void ParseStream(Uri uri, string username, string password)
+    public void StopStream()
+    {
+        _streamActive = false;
+    }
+
+    #endregion
+
+    #region Private methods
+    private void ParseStream(Uri uri, string username, string password)
     {
         HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri); //Creating HTTP request.
 
@@ -52,12 +61,7 @@ public class StreamHandler
         request.BeginGetResponse(OnGetResponse, request); //Asynchronous handling of Web response.
     }
 
-    public void StopStream()
-    {
-        _streamActive = false;
-    }
-
-    public int FindBytes(byte[] buff, byte[] search)
+    private int FindBytes(byte[] buff, byte[] search)
     {
         for (int start = 0; start < buff.Length - search.Length; start++)
         {
@@ -104,7 +108,7 @@ public class StreamHandler
             }
 
             //Parse boundary data from response headers.
-            string boundary = resp.Headers["Content-Type"].Split('=')[1].Replace("\"", ""); 
+            string boundary = resp.Headers["Content-Type"].Split('=')[1].Replace("\"", "");
             byte[] boundaryBytes = Encoding.UTF8.GetBytes(boundary.StartsWith("--") ? boundary : "--" + boundary);
 
             Stream s = resp.GetResponseStream(); //Get data stream from response.
@@ -121,7 +125,7 @@ public class StreamHandler
                 if (imageStart != _errorCode) //Proceed only if we found JPEG header.
                 {
                     // Copy the start of the JPEG image to the imageBuffer
-                    int size = buff.Length - imageStart; 
+                    int size = buff.Length - imageStart;
                     Array.Copy(buff, imageStart, imageBuffer, 0, size);
 
                     while (true)
@@ -179,6 +183,7 @@ public class StreamHandler
             return;
         }
     }
+    #endregion
 }
 
 public class FrameReadyEventArgs : EventArgs
