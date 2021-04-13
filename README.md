@@ -1,2 +1,35 @@
 # Window Into Reality
+
+This is MVP of 'Widnow Into Reality' project. Main files and code implementation placed in 'Assets' folder, which contains:
+ - GoogleVR - unity package from Google for creating VR applications.
+ - Materials - folder that contains material for displaying stream from remote camera.
+ - Plugins - folder that contains required files for building Android application.
+ - Scenes - folder with two sample scenes.
+ - Scripts - folder with scripts that implements logic of application.
+ - XR - folder with unity's XR settings.
  
+All application logic is in next scripts:
+ - StreamHandler - responsible for parsing MJPEG stream from IP camera.
+ - RemoteTexture - responsible for displaying parsed frames on unity scene.
+ - FrameReadyEventArgs - responsible for handling parsed frames.
+ - ErrorEventArgs - responsible for handling errors.
+
+# Classes specifications
+## StreamHandler.cs
+ 
+```
+public void ParseStream(Uri uri) {...} - Method for parsing stream from IP camera URL.
+public void StopStream() {...} - Method for stop handling IP camera stream.
+public int FindBytes(byte[] buff, byte[] search) {...} - Fucntion for searching bytes array 'search' in butes array 'buff'.
+private void OnGetResponse(IAsyncResult asyncResult) {...} - Callback that invokes when user get response from request to IP camera.
+```
+
+## RemoteTexture.cs
+
+```
+private void Start() {...} - Monobehaviour method which is called by Unity at start of application. In this method user can apply some initial settings. 
+private void Update() {...} - Monobehaviour method which is called by Unity every frame. In this method user need to display parsed frame from IP camera (when it will be ready for displaying). 
+private void OnDestroy() {...} - Monobehaviour method which is called by Unity when object destroyed from scene. 
+private void OnMjpegFrameReady(object sender, FrameReadyEventArgs e) {...} - Callback that invokes when StreamHandler parsed frame.
+private void OnMjpegError(object sender, ErrorEventArgs e) {...} - Callback that invokes when StreamHandler got error.
+```
