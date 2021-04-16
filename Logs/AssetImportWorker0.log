@@ -1,0 +1,583 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.3f1 (4bef613afd59) revision 4976481'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'ru' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Projects/WindowIntoReality/Window Into Reality/Window-Into-Reality
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61220
+Successfully changed project path to: D:/Unity/Projects/WindowIntoReality/Window Into Reality/Window-Into-Reality
+D:/Unity/Projects/WindowIntoReality/Window Into Reality/Window-Into-Reality
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.31 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.3f1 (4bef613afd59)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Projects/WindowIntoReality/Window Into Reality/Window-Into-Reality/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001535 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.516 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001255 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1378 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1822.
+Total: 1.682500 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.435900 ms  DeleteObjects: 0.050300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/PCBuild.unity
+  artifactKey: Guid(b8e9f4acbf6f0fa4c8430ee2fb1d0a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PCBuild.unity using Guid(b8e9f4acbf6f0fa4c8430ee2fb1d0a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2798164384147fd7064800000fa7905') in 0.013775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Scenes/AndroidVRBuild.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AndroidVRBuild.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85b27eebae549b6313c2dcf027e69d3') in 0.006099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.472526 seconds.
+  path: Packages/com.google.xr.cardboard/Resources
+  artifactKey: Guid(9421d2ce3deaf45f390a84d593e75311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Resources using Guid(9421d2ce3deaf45f390a84d593e75311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33b0819da38aef389d1944bf3c258b5') in 0.005055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.778481 seconds.
+  path: Packages/com.google.xr.cardboard/Resources/Cardboard
+  artifactKey: Guid(3d6b5ad3915104da58aa307b011077af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Resources/Cardboard using Guid(3d6b5ad3915104da58aa307b011077af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a7b994f439cbdb15f471467c13b56b') in 0.005078 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000339 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.658 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.7 MB.
+System memory in use after: 62.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1826.
+Total: 1.675200 ms (FindLiveObjects: 0.141500 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.486500 ms  DeleteObjects: 0.012800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000392 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.7 MB.
+System memory in use after: 62.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1830.
+Total: 1.731000 ms (FindLiveObjects: 0.146700 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.537900 ms  DeleteObjects: 0.012600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000405 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1206 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.7 MB.
+System memory in use after: 62.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 1.688100 ms (FindLiveObjects: 0.124200 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.519700 ms  DeleteObjects: 0.012700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 282.503401 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(c3cad92836c759449bef189e3922f8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(c3cad92836c759449bef189e3922f8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c96aa14e542616fc9ab888c4ef175c') in 0.006704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.160418 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle.DISABLED
+  artifactKey: Guid(3ec4fcf1cfa542345867834bc2b3fc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle.DISABLED using Guid(3ec4fcf1cfa542345867834bc2b3fc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e378608c68adf9e3add61079f102fe5') in 0.023865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.701997 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml.DISABLED
+  artifactKey: Guid(b3e24768a71ba8941a1803f99646dcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml.DISABLED using Guid(b3e24768a71ba8941a1803f99646dcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1126051d9c8aea7c73668a2924f8acb9') in 0.004948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.694322 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(e8d3870ab4c30e14c9f4445fdb9e08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(e8d3870ab4c30e14c9f4445fdb9e08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86be6d6f9ce04ad94b1d76fb5de9529') in 0.013079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.517179 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(e8d3870ab4c30e14c9f4445fdb9e08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(e8d3870ab4c30e14c9f4445fdb9e08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35814163e02f5d6ae5add16925681a2') in 0.001987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.936969 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(9f8326e938682ab4690beb13872aa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(9f8326e938682ab4690beb13872aa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890af09a8056b94d8df12375c09350e8') in 0.008100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.898411 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(9f8326e938682ab4690beb13872aa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(9f8326e938682ab4690beb13872aa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcebca99afd2d53486639e7b673f14e') in 0.002008 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.6 MB.
+System memory in use after: 38.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 2.030200 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.842600 ms  DeleteObjects: 0.011600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.6 MB.
+System memory in use after: 38.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 2.095200 ms (FindLiveObjects: 0.192900 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.840200 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.392368 seconds.
+  path: Packages/com.google.xr.cardboard/Runtime/Android
+  artifactKey: Guid(b87a7e5c753cb443fb61bc39f76430ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Runtime/Android using Guid(b87a7e5c753cb443fb61bc39f76430ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee65e07651d88deaa76f2d0e8c83473b') in 0.004617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.983693 seconds.
+  path: Packages/com.google.xr.cardboard/Runtime/Android/sdk.aar
+  artifactKey: Guid(efc03dbe8dbcc4d75a8343c5c6676eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Runtime/Android/sdk.aar using Guid(efc03dbe8dbcc4d75a8343c5c6676eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb3224c9cfdb1deb2668e5eb7859c68') in 0.005889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346647 seconds.
+  path: Packages/com.google.xr.cardboard/Runtime/Android/generate_sdk_aar.md
+  artifactKey: Guid(6e366518851b84e339edfe873323348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Runtime/Android/generate_sdk_aar.md using Guid(6e366518851b84e339edfe873323348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865a8416e913f0778a9a1c089c5d671c') in 0.006145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.036438 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard
+  artifactKey: Guid(8c53ca358bc02a5419eb70ccc099394f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard using Guid(8c53ca358bc02a5419eb70ccc099394f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d45ccd9da9bb604a4f7d68d579858f') in 0.004646 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000342 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1210 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 1.642100 ms (FindLiveObjects: 0.116100 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.483000 ms  DeleteObjects: 0.013400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 8.711765 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scenes
+  artifactKey: Guid(6532d9b74af7e42dd9bfe5affd1bba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scenes using Guid(6532d9b74af7e42dd9bfe5affd1bba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0e2ba16ec13faeef4cdcf9d6ed4207') in 0.007575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.676917 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scenes/HelloCardboard.unity
+  artifactKey: Guid(145a2a45d7bc746b19cb68410368bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scenes/HelloCardboard.unity using Guid(145a2a45d7bc746b19cb68410368bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fc474661a54882ba6083343d4a9e2a') in 0.009767 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.6 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 2.164700 ms (FindLiveObjects: 0.163500 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.947200 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.416201 seconds.
+  path: Assets/Scenes/AndroidVRBuild.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AndroidVRBuild.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6be258291a8d4ead715c6b51db0150') in 0.002165 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.6 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 1.944600 ms (FindLiveObjects: 0.148200 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.753000 ms  DeleteObjects: 0.010600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.429664 seconds.
+  path: Assets/Scenes/AndroidVRBuild.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AndroidVRBuild.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd521a93aea4b8888f757e1e49abeed66') in 0.002343 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.6 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 2.413000 ms (FindLiveObjects: 0.161100 ms CreateObjectMapping: 0.033700 ms MarkObjects: 2.204100 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1210 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 1.691800 ms (FindLiveObjects: 0.144700 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.504700 ms  DeleteObjects: 0.012200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.6 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 1.904800 ms (FindLiveObjects: 0.129100 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.734000 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.6 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 1.913000 ms (FindLiveObjects: 0.178500 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.685200 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.6 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 1.920700 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.028000 ms MarkObjects: 1.742100 ms  DeleteObjects: 0.015500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 395.741979 seconds.
+  path: Assets/Scenes/AndroidVRBuild.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AndroidVRBuild.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd726ac47259a5ad714a9cfe84d21f94e') in 0.007571 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 1.982200 ms (FindLiveObjects: 0.159800 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.780700 ms  DeleteObjects: 0.010200 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 1.941100 ms (FindLiveObjects: 0.144800 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.754800 ms  DeleteObjects: 0.011100 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 2.170200 ms (FindLiveObjects: 0.154900 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.969300 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 1.966100 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.775000 ms  DeleteObjects: 0.011100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 372.541794 seconds.
+  path: Assets/Scenes/AndroidVRBuild.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AndroidVRBuild.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90113f9149108ef9df94f78d3d0cb210') in 0.002511 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 2.321800 ms (FindLiveObjects: 0.193400 ms CreateObjectMapping: 0.036100 ms MarkObjects: 2.079200 ms  DeleteObjects: 0.011200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.336363 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity
+  artifactKey: Guid(0285404073e5f3a4cbec98afe9e63c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity using Guid(0285404073e5f3a4cbec98afe9e63c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b375da5e8268b02fe2ae52e3b4613cd0') in 0.005266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.609140 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1
+  artifactKey: Guid(7207f5ecc39015f4c815cdce417a5b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1 using Guid(7207f5ecc39015f4c815cdce417a5b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46abee7fbaae667d92c46cd5e28b4fbf') in 0.005341 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1210 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 1.960400 ms (FindLiveObjects: 0.209600 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.697000 ms  DeleteObjects: 0.015000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 2.053500 ms (FindLiveObjects: 0.193000 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.812400 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.454227 seconds.
+  path: Assets/Scenes/AndroidVRBuild.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AndroidVRBuild.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53cd140237b476076f2c8adffec401a') in 0.007598 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 2.086100 ms (FindLiveObjects: 0.129300 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.918400 ms  DeleteObjects: 0.009500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 2.159100 ms (FindLiveObjects: 0.165700 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.946000 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 230.328491 seconds.
+  path: Assets/Scenes/AndroidVRBuild.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AndroidVRBuild.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef1aa1e999aac4bbb34e79814bc64ad') in 0.001917 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 1.986700 ms (FindLiveObjects: 0.141100 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.802400 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.143821 seconds.
+  path: Assets/Scenes/AndroidVRBuild.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AndroidVRBuild.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf801c45eeac2bedde836a4fd4f2b6a') in 0.002736 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1210 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.0 MB.
+System memory in use after: 63.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1854.
+Total: 1.776400 ms (FindLiveObjects: 0.136500 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.589100 ms  DeleteObjects: 0.014200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1854.
+Total: 2.006500 ms (FindLiveObjects: 0.201700 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.753200 ms  DeleteObjects: 0.011800 ms)
+
