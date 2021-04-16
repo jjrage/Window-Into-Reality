@@ -1,7 +1,7 @@
 # Window Into Reality
 
 This is MVP of 'Widnow Into Reality' project. Main files and code implementation placed in 'Assets' folder, which contains:
- - GoogleVR - unity package from Google for creating VR applications.
+ - Samples - Google VR Cardboard samples.
  - Materials - folder that contains material for displaying stream from remote camera.
  - Plugins - folder that contains required files for building Android application.
  - Scenes - folder with two sample scenes.
