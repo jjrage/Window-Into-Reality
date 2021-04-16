@@ -33,3 +33,16 @@ private void OnDestroy() {...} - Monobehaviour method which is called by Unity w
 private void OnMjpegFrameReady(object sender, FrameReadyEventArgs e) {...} - Callback that invokes when StreamHandler parsed frame.
 private void OnMjpegError(object sender, ErrorEventArgs e) {...} - Callback that invokes when StreamHandler got error.
 ```
+
+# Used SDKs
+## Third party SDKs
+- Google Cardboard XR Plugin for Unity, version 1.4.1 - https://github.com/googlevr/cardboard-xr-plugin/releases/tag/v1.4.1
+## Build-in SDKs
+- JetBrains Rider Editor, version 3.0.5
+- Test Framework, version 1.1.24
+- TextMeshPro, version 3.0.4
+- Timeline, version 1.5.4
+- Unity Collaborate, version 1.3.9
+- Unity UI, version 1.0.0
+- Visual Studio Code Editor, version 1.2.3
+- Visual Studio Editor, version 2.0.7
